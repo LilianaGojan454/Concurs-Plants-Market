@@ -1,0 +1,98 @@
+.main{
+  min-height: 100vh;
+}
+*{
+  box-sizing: border-box;
+}
+.sus{
+  background-color: #01771196;
+position: fixed;
+width: 100%;
+top: 0%;
+padding: 10px 15px 5px 15px;
+}
+section{
+  padding-top: 90px;
+}
+navbar{
+margin-left: 30px;
+margin-bottom: 10px;
+display: inline-block;
+overflow: auto;
+}
+navbar a {
+  text-decoration: none;
+  color: rgb(251, 251, 251);
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+navbar a:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: underline 1px;
+}
+.logo{
+  height: 50px;
+}
+.nam{
+  text-align: left;
+padding-top: 10px;
+color: rgb(215, 160, 160);
+font-size: x-large;
+}
+.asd{
+  text-align: center;
+  font-size: 1.5cm;
+padding-top: 10px;
+color: rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+font-style: initial;
+}
+.name{
+  text-align: center;
+  padding-top: 60px;
+  color: rgb(253, 253, 253);
+  font-size: xx-large;
+}
+#hamburger{
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  right: 22px;
+  top: 24px;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 800px){
+ section{
+  padding: 90px 10px;
+
+ }
+index-info h1{
+  font-size: 250%;
+}
+  navbar a{
+    display: none;
+  }
+  navbar.mobile a{
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+  }
+  navbar{
+    display: block;
+  }
+  #hamburger{
+    display: block;
+  }
+}
+.footer{
+  color:rgb(174, 5, 5);
+}
+.disclaimer{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.foto{
+  text-align: center;
+}

@@ -1,0 +1,155 @@
+.main{
+
+  min-height: 100vh;
+}
+*{
+  box-sizing: border-box;
+}
+.sus{
+  background-color: #046410a8;
+position: fixed;
+width: 100%;
+top: 0%;
+padding: 10px 15px 5px 15px;
+}
+section{
+  padding-top: 90px;
+}
+navbar{
+  margin-left: 30px;
+  margin-bottom: 10px;
+  display: inline-block;
+  overflow: auto;
+}
+navbar a{
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+navbar a:hover{
+  color: rgb(o, o, o);
+  text-decoration: underline 1px;
+}
+.logo{
+  height: 50px;
+}
+.image{
+text-align: center;
+}
+.butuci{
+  font-size: 5pc;
+  color: rgb(176, 126, 126);
+  text-align: center;
+}
+.struguri{
+  font-size: 3pc;
+  color: rgb(153, 198, 30);
+  text-align: center;
+}
+.lincu{
+  font-size: xx-large;
+  text-align: center;
+}
+.harta{
+  text-align: right;
+}
+.unde{
+  padding-top: 65px;
+  font-size: xx-large;
+ text-align: center;
+  color: rgb(67, 106, 27);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.butuc{
+  text-align: center;
+}
+.body{
+  margin: 0;
+}
+.link{
+  font-size: x-large;
+}
+.contacte{
+  font-size: large;
+}
+.disclaimer{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+main{
+min-height: 100vh;
+}
+.section{
+padding: 90px 15%;
+}
+.row{
+overflow: auto;
+}
+.center{
+text-align:center;
+font-size: 30px;
+}
+.col-50{
+width:65%;
+float:center;
+padding:0px 10px;
+padding-left: 50px;
+}
+.contacte, .cform {
+border: 2px solid #f3deca;
+border-radius:10px;
+background-color:f3deca5d;
+padding: 5px 5%;
+height: 480px;
+margin-bottom:5px;
+}
+
+ 
+
+
+
+
+
+
+
+.centered{
+text-align:left;
+font-size:30px;
+}
+#hamburger{
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  right: 22px;
+  top: 24px;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 800px){
+ section{
+  padding: 90px 10px;
+
+ }
+index-info h1{
+  font-size: 250%;
+}
+  navbar a{
+    display: none;
+  }
+  navbar.mobile a{
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+  }
+  navbar{
+    display: block;
+  }
+  #hamburger{
+    display: block;
+  }
+}
+.footer{
+  color: rgb(174, 5, 5);
+}
